@@ -1,0 +1,10 @@
+dataset_root: "../Raw DATA/ifh_affect"
+output_root: "outputs"
+random_seed: 42
+n_splits: 5
+success_threshold_seconds: 900
+max_valid_onset_latency_seconds: 14400
+hrv_windows_hours: [1, 3, 6]
+pedometer_windows_hours: [1, 3, 6]
+personicle_windows_hours: [3, 6]
+main_oversampling_strategy: 0.667
